@@ -14,20 +14,27 @@ header {
   text-align: center;
 }
 
+h1, h2, h3 {
+  font-weight: 500;
+}
+
 .wrapper {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
+  border: 2px solid transparent;
+  margin-bottom: 50px;
 }
 
 .element {
   padding: 20px;
-  border-radius: 4px;
   background: #fafafa;
+  max-width: 50%;
+  word-break: break-all;
 }
 
 .element h3 {
