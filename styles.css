@@ -1,0 +1,40 @@
+body {
+  color: rgba(0, 0, 0, 0.89);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 100px 0;
+}
+
+header {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element {
+  padding: 20px;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.element h3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.89);
+}
+
+.element > div {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Consolas, 'Courier New', monospace;
+}
